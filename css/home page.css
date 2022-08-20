@@ -1,0 +1,296 @@
+main{
+    display: grid;
+    grid-template-areas: "first-column second-column third-column";
+    height: 97.5vh;
+    grid-template-columns: 300px 700px 350px;
+}
+.aside{
+    border: 2px solid pink;
+    grid-area: first-column;
+}
+.section{
+    border: 2px solid blue;
+    grid-area: second-column;
+    overflow: scroll;
+}
+.last-column{
+    border: 2px solid red;
+    grid-area: third-column;
+    overflow: scroll;
+    
+}
+.trends{
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+.logo{
+    color: dodgerblue;
+    font-size: 200%;
+    margin-left: 3rem;
+    padding-bottom: 10px;
+}
+ul>li{
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-left: 0.7rem;
+    list-style: none;
+}
+ul>li>a:hover{
+    color: white;
+}
+ul>li:hover{
+    background-color: lightgrey;
+    width: 70%;
+    height: 20px;
+    border-radius: 18px;
+    transition: 0.8s;
+}
+li>a{
+    color: black;
+    text-decoration: none;
+}
+i{
+    padding-right: 20px;
+}
+.b1{
+    width: 60%;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 35px;
+    border: none ;
+    margin-top: -50rem;
+    background-color: dodgerblue;
+    color: white;
+    margin-left: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 38%;
+    transition: 0.8s;
+}
+.b1:hover{
+    color: black;
+}
+.pic1{
+    border-radius: 40px;
+    height: 40px;
+    width:13%;
+    margin-left: 15%;
+}
+.inp{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: bold
+}
+.span1{
+    color: gray;
+}
+.dots{
+    font-weight: bolder;
+    font-size: x-large;
+}
+header{
+    font-size: 22px;  
+    margin-left: 1rem;
+}
+.pic2{
+    border-radius: 40px;
+    height: 41px;
+    width: 6.5%;
+    margin-top: 1rem; 
+    margin-left: 1rem;
+}
+.t3{
+    border: none;
+    font-size: 18px;
+    margin-left: rem;
+    margin-top: 1.3rem;
+}
+.real{
+    display: flex;
+}
+.thin{
+    color: dodgerblue;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    display: flex;
+}
+.b2{
+    color: white;
+    background-color: rgb(140, 203, 223);
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    margin-left: 10rem;
+    font-weight: bold;
+}
+.small-tweet-button{
+    margin-top: -0.7rem;
+    margin-left: 7rem;
+}
+.hr1{
+    margin-bottom: 0.8rem;
+    border: 0.1px solid lightgray;
+}
+.hr2{
+    margin-top: 0.8rem;
+    border: 0.1px solid lightgray;
+}
+.hr3{
+    margin-top: 0.8rem;
+    border: 0.1px solid lightgray;
+}
+.span3{
+    color: dodgerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 42%;
+}
+.pic3{
+    border-radius: 40px;
+    height: 48px;
+    width: 7%;
+    margin-left: 1rem;
+    
+}
+.pop{
+    font-size: 13px;
+    margin-left: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -3.4rem;
+    line-height: 18px;
+    font-weight: 450;
+}
+.s2{
+    font-weight: bold;
+}
+.s3{
+    color: rgb(156, 155, 155)
+}
+.pic4{
+    width: 53%;
+    margin-top: -0.5rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    height: 450px;
+}
+.pic5{
+    border-radius: 40px;
+    height: 48px;
+    width: 7%;
+    margin-left: 1rem;
+}
+.pop2{
+    font-size: 13px;
+    margin-left: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -3.4rem;
+    line-height: 18px;
+    font-weight: 450;
+}
+.s4{
+    font-weight: bold;
+}
+.s5{
+    color: rgb(156, 155, 155)
+}
+.pic6{
+    width: 53%;
+    margin-top: -0.5rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    height: 450px;
+}
+.second-tweet{
+    margin-top: 2rem;
+}
+.widgets{
+    font-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 11rem;
+    color: rgb(186, 178, 178);
+}
+.widgets>a{
+    text-decoration: none;
+    color: rgb(164, 157, 157);
+}
+.search-button{
+    width: 68%;
+    color: grey;
+    margin-top: 0.5rem;
+    height: 6%;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(234, 232, 232);
+}
+input,
+input::placeholder{
+    padding-left: 40px;
+}
+h3{
+    font-size: 21px;
+    margin-left: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hash{
+    color: grey;
+}
+.bold{
+    font-weight: bold;
+}
+.hashtag1{
+    margin-bottom: 1rem;
+}
+.hashtag2{
+    margin-bottom: 1rem;
+}
+.hashtag3{
+    margin-bottom: 1rem;
+}
+.hashtag4{
+    margin-bottom: 1rem;
+}
+.hashtag5{
+    margin-bottom: 1rem;
+}
+.hashtag6{
+    margin-bottom: 1rem;
+}
+.hashtag7{
+    margin-bottom: 1rem;
+}
+.for-all{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

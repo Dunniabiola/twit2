@@ -1,0 +1,78 @@
+img{
+    height: 655px;
+    width: 60%;
+    position: absolute;
+}
+body{
+    margin-top: -3.5%;
+    margin-left: 2%;
+}
+section{
+    background-color: black;
+    height: 655px;
+    width: 40%;
+    position: relative;
+    margin-left: 48rem;
+    margin-top: -1.5%;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 350%;
+    margin-left: 9.5rem;
+    margin-bottom: 2rem;
+    padding-top: 170px;
+    transform: scale(1.2,1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    margin-left: 7.3rem;
+}
+h3{
+    color: rgb(115, 105, 105);
+    margin-left: 7.6rem;
+    font-size: x-small;
+    line-height: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    color: white;
+    margin-left: 7.6rem;
+    font-size: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.button1{
+    height: 38px;
+    width: 62%;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    margin-left: 7.3rem;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+.button2{
+    height: 38px;
+    width: 62%;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    margin-left: 7.3rem;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.button2>a{
+    color: black;
+}

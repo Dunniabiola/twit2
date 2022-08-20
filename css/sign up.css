@@ -1,0 +1,121 @@
+header{
+    color: white;
+    height: 70px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    background: -webkit-linear-gradient(skyblue,rgb(75, 243, 84));
+}
+
+.t1{
+    margin-left: 60rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    font-size: small;
+}
+h1{
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 7rem;
+    margin-left: 20rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inp1{
+    margin-left: 20rem;
+    width: 40%;
+    height: 40px;
+    margin-bottom: 2rem;
+    border: 1.5px solid rgb(223, 219, 219);
+}
+.inp2{
+    margin-left: 20rem;
+    width: 40%;
+    height: 40px;
+    margin-bottom: 2rem;
+    border: 1.5px solid rgb(223, 219, 219);
+}
+.inp3{
+    margin-left: 20rem;
+    width: 40%;
+    height: 40px;
+    border: 1.5px solid rgb(223, 219, 219);
+    margin-bottom: 2rem;
+}
+.inp4{
+    margin-left: 20rem;
+    color: rgb(126, 122, 122);
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    color: rgb(18, 101, 184);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input,
+input::placeholder{
+    font-size: medium;
+    color: rgb(181, 178, 178);
+    padding-left: 8px;
+}
+button{
+    width: 40.2%;
+    margin-left: 20rem;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    margin-bottom: 1.5rem;
+}
+.last{
+    color: grey;
+    margin-left: 20rem;
+    line-height: 1.3rem;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

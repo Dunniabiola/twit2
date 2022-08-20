@@ -1,0 +1,90 @@
+main{
+    display: grid;
+    grid-template-areas: "first-column second-column third-column";
+    height: 97.5vh;
+    grid-template-columns: 300px 700px 350px;
+}
+.aside{
+    border: 2px solid pink;
+    grid-area: first-column;
+}
+.section{
+    border: 2px solid blue;
+    grid-area: second-column;
+    overflow: scroll;
+}
+.last-column{
+    border: 2px solid red;
+    grid-area: third-column;
+    overflow: scroll;
+    
+}
+.logo{
+    color: dodgerblue;
+    font-size: 200%;
+    margin-left: 3rem;
+    padding-bottom: 10px;
+}
+ul>li{
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-left: 0.7rem;
+    list-style: none;
+}
+ul>li>a:hover{
+    color: white;
+}
+ul>li:hover{
+    background-color: lightgrey;
+    width: 70%;
+    height: 20px;
+    border-radius: 18px;
+    transition: 0.8s;
+}
+li>a{
+    color: black;
+    text-decoration: none;
+}
+i{
+    padding-right: 20px;
+}
+.b1{
+    width: 60%;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 35px;
+    border: none ;
+    margin-top: -50rem;
+    background-color: dodgerblue;
+    color: white;
+    margin-left: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 38%;
+    transition: 0.8s;
+}
+.b1:hover{
+    color: black;
+}
+.pic1{
+    border-radius: 40px;
+    height: 40px;
+    width:13%;
+    margin-left: 15%;
+}
+.inp{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: bold
+}
+.span1{
+    color: gray;
+}
+.dots{
+    font-weight: bolder;
+    font-size: x-large;
+}
